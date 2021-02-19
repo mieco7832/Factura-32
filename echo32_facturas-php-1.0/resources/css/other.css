@@ -1,0 +1,46 @@
+/* 
+    Created on : 10 feb. 2021, 10:22:38
+    Author     : Echo
+*/
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.toast {
+    text-align: right;
+    position: absolute; 
+    top: 0; 
+    right: 20px;
+    z-index: 100;
+}
+
+div.br::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 2vh;
+}
+@media (min-width: 992px){
+    .container {    
+        max-width: 90vw;
+    }
+}
+.spinner-border{
+    position: absolute;
+    top:45%;
+}
+.load{
+    display: none;
+    position: absolute;
+    z-index: 2000;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(160,160,160,0.5);
+}
+
+.border{
+    min-height: 60px;
+}
